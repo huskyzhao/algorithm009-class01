@@ -76,9 +76,9 @@ a // ['A', 'B']
 循环链表和单链表相似，节点类型都是一样，唯一的区别是，在创建循环链表的时候，让其头节点的 next 属性执行它本身
 ![image.png](/image/Week_01/循环链表.png)
 ### 使用JS实现
-[JS中的算法与数据结构——链表(Linked-list)](https://juejin.im/entry/59cb70995188256aa423b680)
-[js实现数据结构及算法之链表(Linked-list)](https://juejin.im/post/5b87c60c6fb9a019fa06495b)
-[链表在JS中的实现](https://www.jianshu.com/p/e9620c0db523)
+* [JS中的算法与数据结构——链表(Linked-list)](https://juejin.im/entry/59cb70995188256aa423b680)
+* [js实现数据结构及算法之链表(Linked-list)](https://juejin.im/post/5b87c60c6fb9a019fa06495b)
+* [链表在JS中的实现](https://www.jianshu.com/p/e9620c0db523)
 #### 单向链表
 
 
@@ -146,10 +146,10 @@ function remove ( item ) {
 
 
 ## ****跳表****
-****[漫画：什么是跳表？](https://zhuanlan.zhihu.com/p/53975333)****
-****[跳跃列表 维基百科](https://zh.wikipedia.org/wiki/%E8%B7%B3%E8%B7%83%E5%88%97%E8%A1%A8)****
-****[跳表 skiplist](https://segmentfault.com/a/1190000006024984#item-3-2)****
-**
+* ****[漫画：什么是跳表？](https://zhuanlan.zhihu.com/p/53975333)****
+* ****[跳跃列表 维基百科](https://zh.wikipedia.org/wiki/%E8%B7%B3%E8%B7%83%E5%88%97%E8%A1%A8)****
+* ****[跳表 skiplist](https://segmentfault.com/a/1190000006024984#item-3-2)****
+
 ![image.png](/image/Week_01/skiplist.png)
 ### 插入
 
@@ -180,15 +180,15 @@ function remove ( item ) {
 
 
 ### LRU Cache - Linked list
-[LRU缓存算法](https://www.jianshu.com/p/b1ab4a170c3c)
-[leetcode  146. LRU缓存机制](https://leetcode-cn.com/problems/lru-cache)
+* [LRU缓存算法](https://www.jianshu.com/p/b1ab4a170c3c)
+* [leetcode  146. LRU缓存机制](https://leetcode-cn.com/problems/lru-cache)
 
 
 ### Redis - Skip List
 
 
-[跳表](https://redisbook.readthedocs.io/en/latest/internal-datastruct/skiplist.html)
-[为啥 redis 使用跳表(skiplist)而不是使用 red-black？](https://www.zhihu.com/question/20202931)
+* [跳表](https://redisbook.readthedocs.io/en/latest/internal-datastruct/skiplist.html)
+* [为啥 redis 使用跳表(skiplist)而不是使用 red-black？](https://www.zhihu.com/question/20202931)
 
 
 ## 小结
@@ -202,17 +202,17 @@ function remove ( item ) {
 
 
 ## ****参考链接****
-[数组](https://101.zoo.team/shu-zu)
-[JS中的算法与数据结构——链表(Linked-list)](https://juejin.im/entry/59cb70995188256aa423b680)
-[js实现数据结构及算法之链表(Linked-list)](https://juejin.im/post/5b87c60c6fb9a019fa06495b)
-[链表在JS中的实现](https://www.jianshu.com/p/e9620c0db523)
-[漫画：什么是跳表？](https://zhuanlan.zhihu.com/p/53975333)
-· [Java 源码分析（ArrayList）](http://developer.classpath.org/doc/java/util/ArrayList-source.html)
-· [Linked List 的标准实现代码](http://www.geeksforgeeks.org/implementing-a-linked-list-in-java-using-class/)
-· [Linked List 示例代码]()
-· [Java 源码分析（LinkedList）](http://developer.classpath.org/doc/java/util/LinkedList-source.html)
-· LRU Cache - Linked list：[ LRU 缓存机制](http://leetcode-cn.com/problems/lru-cache)
-· Redis - Skip List：[跳跃表](http://redisbook.readthedocs.io/en/latest/internal-datastruct/skiplist.html)、[为啥 Redis 使用跳表（Skip List）而不是使用 Red-Black？](http://www.zhihu.com/question/20202931)
+* [数组](https://101.zoo.team/shu-zu)
+* [JS中的算法与数据结构——链表(Linked-list)](https://juejin.im/entry/59cb70995188256aa423b680)
+* [js实现数据结构及算法之链表(Linked-list)](https://juejin.im/post/5b87c60c6fb9a019fa06495b)
+* [链表在JS中的实现](https://www.jianshu.com/p/e9620c0db523)
+* [漫画：什么是跳表？](https://zhuanlan.zhihu.com/p/53975333)
+* [Java 源码分析（ArrayList）](http://developer.classpath.org/doc/java/util/ArrayList-source.html)
+    * [Linked List 的标准实现代码](http://www.geeksforgeeks.org/implementing-a-linked-list-in-java-using-class/)
+    * [Linked List 示例代码]()
+    * [Java 源码分析（LinkedList）](http://developer.classpath.org/doc/java/util/LinkedList-source.html)
+*  LRU Cache - Linked list：[ LRU 缓存机制](http://leetcode-cn.com/problems/lru-cache)
+* Redis - Skip List：[跳跃表](http://redisbook.readthedocs.io/en/latest/internal-datastruct/skiplist.html)、[为啥 Redis 使用跳表（Skip List）而不是使用 Red-Black？](http://www.zhihu.com/question/20202931)
 ## 栈Stack
 
 
