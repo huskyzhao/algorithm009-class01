@@ -1,7 +1,7 @@
 # 第一周总结丨数组、链表、跳表、队列、栈
 
 ## ****数组Array****
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/264916/1589814064234-94069345-dfe8-417d-91e9-dd7904206c8a.png#align=left&display=inline&height=663&margin=%5Bobject%20Object%5D&name=image.png&originHeight=663&originWidth=1113&size=92875&status=done&style=none&width=1113)
+![image.png](/image/Week_01/array.png)
 ### 时间复杂度
 | 操作 | 时间复杂度 |
 | :---: | :---: |
@@ -54,7 +54,7 @@ a // ['A', 'B']
 
 
 链表是一组节点组成的集合，每个节点都使用一个对象的引用来指向它的后一个节点。指向另一节点的引用讲做链。
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/264916/1589814082578-b5338472-21cb-4074-8691-7b0b88809593.png#align=left&display=inline&height=620&margin=%5Bobject%20Object%5D&name=image.png&originHeight=620&originWidth=1206&size=51785&status=done&style=none&width=1206)
+![image.png](/image/Week_01/linkedList.png)
 ### 普通链表时间复杂度
 | 操作 | 时间复杂度 |
 | :---: | :---: |
@@ -68,13 +68,13 @@ a // ['A', 'B']
 
 ### 定义
 #### 单向链表
-![](https://cdn.nlark.com/yuque/0/2020/png/264916/1585472665130-5eee3fb5-1bff-49c5-aaf2-6ca3cbade648.png#align=left&display=inline&height=163&margin=%5Bobject%20Object%5D&originHeight=163&originWidth=625&size=0&status=done&style=none&width=625)
+![image.png](/image/Week_01/单向链表.png)
 #### _双向链表_
 此时，向链表插入一个节点就要更改节点的前驱和后继了，但是删除节点的效率提高了，不再需要寻找待删除节点的前驱节点了。
-![](https://cdn.nlark.com/yuque/0/2020/png/264916/1585473285487-b78b5823-6365-4a2c-a5bd-e0fa26d5003b.png#align=left&display=inline&height=178&margin=%5Bobject%20Object%5D&originHeight=178&originWidth=952&size=0&status=done&style=none&width=952)
+![image.png](/image/Week_01/双向链表.png)
 #### 循环链表
 循环链表和单链表相似，节点类型都是一样，唯一的区别是，在创建循环链表的时候，让其头节点的 next 属性执行它本身
-![](https://cdn.nlark.com/yuque/0/2020/png/264916/1585473273609-f185bd41-7fb9-407f-9398-3935e7584d6a.png#align=left&display=inline&height=178&margin=%5Bobject%20Object%5D&originHeight=178&originWidth=728&size=0&status=done&style=none&width=728)
+![image.png](/image/Week_01/循环链表.png)
 ### 使用JS实现
 [JS中的算法与数据结构——链表(Linked-list)](https://juejin.im/entry/59cb70995188256aa423b680)
 [js实现数据结构及算法之链表(Linked-list)](https://juejin.im/post/5b87c60c6fb9a019fa06495b)
@@ -150,7 +150,7 @@ function remove ( item ) {
 ****[跳跃列表 维基百科](https://zh.wikipedia.org/wiki/%E8%B7%B3%E8%B7%83%E5%88%97%E8%A1%A8)****
 ****[跳表 skiplist](https://segmentfault.com/a/1190000006024984#item-3-2)****
 **
-****![image.png](https://cdn.nlark.com/yuque/0/2020/png/264916/1589815186599-b5ae9109-c290-4fee-8bb9-6cd38728359f.png#align=left&display=inline&height=634&margin=%5Bobject%20Object%5D&name=image.png&originHeight=634&originWidth=1321&size=70284&status=done&style=none&width=1321)****
+![image.png](/image/Week_01/skiplist.png)
 ### 插入
 
 1. 新节点和各层索引节点逐一比较，确定原链表的插入位置。O（logN）
@@ -229,7 +229,7 @@ function remove ( item ) {
 
 栈是一种特殊的列表，限定仅在表尾进行插入和删除操作的线性表。这一端被称为栈顶，相对地，把另一端称为栈底。它按照**先进后出**的原则存储数据，先进入的数据被压入栈底，最后的数据在栈顶，需要读数据的时候从栈顶开始弹出数据。例如饭店里用来放盘子的，就是一种栈的结构。
 
-![](https://cdn.nlark.com/yuque/0/2020/png/264916/1590314519795-253db7c4-0f0b-4ba4-aed6-b40b2fe62524.png#align=left&display=inline&height=257&margin=%5Bobject%20Object%5D&originHeight=257&originWidth=473&size=0&status=done&style=none&width=473)
+![image.png](/image/Week_01/Stack.png)
 
 由于栈具有**后入先出**的特点，因此只能访问在栈顶的元素。栈的操作主要有两种：入栈和出栈。上面的图演示了入栈和出栈的过程。
 
@@ -274,7 +274,7 @@ class Stack {
 ## 队列Queue
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/264916/1590316139589-2ac77eb6-dff6-4c65-8ce3-8d2d08b21744.png#align=left&display=inline&height=389&margin=%5Bobject%20Object%5D&name=image.png&originHeight=389&originWidth=1199&size=30632&status=done&style=none&width=1199)
+![image.png](/image/Week_01/Queue.png)
 
 | 操作 | 时间复杂度 |
 | :---: | :---: |
@@ -353,9 +353,9 @@ Deque - double ended queue
 | 删除 | O(1) |
 | 查找 | O(n) |
 
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/264916/1590314904569-2f100283-1efa-4d7d-adc4-cdf10d8f1d3e.png#align=left&display=inline&height=467&margin=%5Bobject%20Object%5D&name=image.png&originHeight=467&originWidth=1125&size=114586&status=done&style=none&width=1125)
+![image.png](/image/Week_01/Deque.png)
 
 
 ## 复杂度分析
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/264916/1590316021205-d047b22c-39d6-45c5-aebf-c4e9f8d0d7c7.png#align=left&display=inline&height=1004&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1004&originWidth=1806&size=295677&status=done&style=none&width=1806)
+![image.png](/image/Week_01/commonData.png)
 
