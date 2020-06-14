@@ -107,3 +107,4 @@ while left <= right:
 		    right = mid - 1
 ```
 ![](/image/Week_04/1.png)
+
